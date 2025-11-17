@@ -1,10 +1,8 @@
-package easy;
-
 import java.util.HashMap;
 import java.util.Map;
 
 //https://leetcode.com/problems/roman-to-integer/
-public class RomanToInteger {
+public class N13RomanToInteger {
     public static int romanToInt(String s) {
         int res = 0;
         Map<Character, Integer> roman = new HashMap<>();

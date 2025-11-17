@@ -1,6 +1,4 @@
-package easy;
-
-public class RemoveElement27 {
+public class N27RemoveElement {
     public static int removeElement(int[] nums, int val) {
         int k = 0;
 

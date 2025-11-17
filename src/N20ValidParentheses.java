@@ -1,8 +1,6 @@
-package easy;
-
 import java.util.Stack;
 //https://leetcode.com/problems/valid-parentheses/description/
-public class ValidParentheses {
+public class N20ValidParentheses {
         public static boolean isValid(String s) {
             Stack<Character> stack = new Stack<>();
             for (char ch : s.toCharArray()) {
@@ -28,7 +26,7 @@ public class ValidParentheses {
         }
 
     public static void main(String[] args) {
-        ValidParentheses.isValid("()[]{}");
+        N20ValidParentheses.isValid("()[]{}");
 
     }
     }

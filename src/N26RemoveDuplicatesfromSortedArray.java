@@ -1,7 +1,5 @@
-package easy;
-
 //https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-public class RemoveDuplicatesfromSortedArray26 {
+public class N26RemoveDuplicatesfromSortedArray {
     public static int removeDuplicates(int[] nums) {
         if (nums.length == 0) return 0;
 
